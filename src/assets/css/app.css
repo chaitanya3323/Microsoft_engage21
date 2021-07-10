@@ -20,7 +20,25 @@
     -webkit-transition: all 0.3s ease !important;
     -moz-transition: all 0.3s ease !important;
 }
-
+.header{
+    background-color: #6264a7;
+    height: 52px;
+}
+.all-icons{
+    margin-top: 5px;
+    margin-left: 78%;
+}
+.btn-1{
+    height: 40px;
+    border: none;
+    background-color: #6264a7;
+    padding: 10px;
+}
+.create-room{
+    background-color: #6264a7;
+    border: none;
+    color: rgb(255, 253, 253);
+}
 #chat-messages{
     height: 70vh;
     margin-bottom: 20px;
@@ -156,7 +174,7 @@
 .record-option{
     height: 200px;
     border-radius: 10%;
-    border: 1px solid #17a2b8;
+    border: 1px solid #6264a7;
     cursor: pointer;
     padding: 10px;
     vertical-align: middle;
@@ -176,11 +194,12 @@
 
 
 .custom-modal-content {
-    background-color: #fefefe;
+    background-color: #fdfafa;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #17a2b8;
+    border: 2px solid #6264a7;
     width: 80%;
+    border-radius: 5px;
 }
 
 
