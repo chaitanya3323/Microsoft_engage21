@@ -261,7 +261,8 @@ export default {
         mirrorMode ? localVidElem.classList.add( 'mirror-mode' ) : localVidElem.classList.remove( 'mirror-mode' );
     },
 
-
+    
+    // Agile
     adjustVideoElemSize() {
         let elem = document.getElementsByClassName( 'card' );
         let totalRemoteVideosDesktop = elem.length;
@@ -286,6 +287,7 @@ export default {
     },
 
 
+    //Agile Methodology
     createDemoRemotes( str, total = 6 ) {
         let i = 0;
 
