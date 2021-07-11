@@ -4,7 +4,7 @@ Implemented using webRTC,Socket.io,Node.js. It can handle maximum 4 devices.
 
 # Link
 
-You can see the demo at https://chat.1410inc.xyz.
+You can see the demo at <a href="https://chat.1410inc.xyz">Teams</a>
 
 # Features
 
