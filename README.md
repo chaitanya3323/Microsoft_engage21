@@ -6,9 +6,9 @@ I have implemented the video call app using
 
 * webRTC
 
-*Socket.io
+* Socket.io
 
-*Node.js
+* Node.js
 
  It can handle maximum 4 devices.
 
@@ -22,16 +22,16 @@ Code for <a href = "https://github.com/chaitanya3323/Microsoft_engage21/blob/40e
 
 # Features
 
-*Video Chat
+* Video Chat
   
-*Text Chat
+* Text Chat
 
-*Toggling audio and video streams
+* Toggling audio and video streams
 
-*Screen Sharing
+* Screen Sharing
 
-*Screen recording
+* Screen recording
 
-*Multi participants(upto 4)
+* Multi participants(upto 4)
 
-*Expand participant's Stream
+* Expand participant's Stream
