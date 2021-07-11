@@ -18,7 +18,7 @@ You can see the demo at <a href="https://chat.1410inc.xyz">Teams</a>
 
 # Agile
 
-Code for <a href = "https://github.com/chaitanya3323/Microsoft_engage21/blob/40e66d7408b1f7530de0ffbca73fa5ac26c20012/src/assets/js/helpers.js#L266-L324">Agile</a>
+<a href = "https://github.com/chaitanya3323/Microsoft_engage21/blob/master/Agile.pdf">Agile</a>
 
 # Features
 
