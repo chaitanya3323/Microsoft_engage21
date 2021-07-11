@@ -36,16 +36,21 @@ window.addEventListener( 'load', () => {
         socket.on( 'connect', () => {
             //set socketId
             socketId = socket.io.engine.id;
+            console.log(socket.io.engine.id);
 
 
             socket.emit( 'subscribe', {
                 room: room,
                 socketId: socketId
-            } );
+               
+            } 
+            );
+            console.log(room);
 
 
             socket.on( 'new user', ( data ) => {
                 socket.emit( 'newUserStart', { to: data.socketId, sender: socketId } );
+                console.log(data.socketId);
                 pc.push( data.socketId );
                 init( true, data.socketId );
             } );
@@ -53,6 +58,7 @@ window.addEventListener( 'load', () => {
 
             socket.on( 'newUserStart', ( data ) => {
                 pc.push( data.sender );
+                console.log(data.sender);
                 init( false, data.sender );
             } );
 
@@ -60,12 +66,14 @@ window.addEventListener( 'load', () => {
             socket.on( 'ice candidates', async ( data ) => {
                 data.candidate ? await pc[data.sender].addIceCandidate( new RTCIceCandidate( data.candidate ) ) : '';
             } );
+           
 
 
             socket.on( 'sdp', async ( data ) => {
                 if ( data.description.type === 'offer' ) {
                     data.description ? await pc[data.sender].setRemoteDescription( new RTCSessionDescription( data.description ) ) : '';
 
+                    console.log(data.description);
                     h.getUserFullMedia().then( async ( stream ) => {
                         if ( !document.getElementById( 'local' ).srcObject ) {
                             h.setLocalStream( stream );
@@ -96,7 +104,9 @@ window.addEventListener( 'load', () => {
 
             socket.on( 'chat', ( data ) => {
                 h.addChat( data, 'remote' );
-            } );
+            } 
+            );
+            
         } );
 
 
