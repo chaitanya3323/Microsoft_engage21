@@ -18,7 +18,7 @@ You can see the demo at <a href="https://chat.1410inc.xyz">Teams</a>
 
 # Agile
 
-<a href = "https://github.com/chaitanya3323/Microsoft_engage21/blob/master/Agile.pdf">Agile</a>
+<a target = "_blank" href = "Agile.pdf">Agile</a>
 
 # Features
 
