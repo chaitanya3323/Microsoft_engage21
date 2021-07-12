@@ -50,3 +50,6 @@ You can see the demo at <a href="https://chat.1410inc.xyz">Teams</a>
 
 * <a href="https://github.com/chaitanya3323/Microsoft_engage21/blob/b5851b61a56afaa1d87255b447c70e42077101c7/src/assets/js/events.js#L52-L104">Create Room</a>
 
+* <a href="https://github.com/chaitanya3323/Microsoft_engage21/blob/474dc9f16062e3b3200dbc13b26a8789f51024bc/src/assets/js/rtc.js#L36-L102">Socket Connection</a>
+
+* iceCandidate for peer connection:<a href="https://github.com/chaitanya3323/Microsoft_engage21/blob/474dc9f16062e3b3200dbc13b26a8789f51024bc/src/assets/js/helpers.js#L110-L123">Ice server</a>
